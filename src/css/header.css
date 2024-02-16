@@ -5,16 +5,34 @@
     --bacground-color: #121212;
   }
 
+  .header{
+    font-family:"DM Sans", sans-serif ;
+    display: flex;
+    margin-top: 20px;
+    width: 180px;
+    height: 60px;
+  }
+
   .separation{
+    background-color: var(--bacground-color);
     border: 1px solid rgba(255, 255, 255, 0.2);
-border-radius: 12px;
-width: 822px;
-height: 60px;
 }
 
 .header-logo{
-    color: #fff;
-    font-family: "DM Sans", sans-serif;
-    width: 123px;
-    height: 16px;
+    color: var(--wite-color);
+    margin-left: 50px;
+    padding-right: 97px;
 }
+
+.header-list{
+  padding-right: 50px;
+  padding-bottom: 21px;
+  padding-top: 21px;
+  display: flex;
+  gap: 28px;
+}
+
+.header-sections{
+  color: var(--wite-color);
+}
+
