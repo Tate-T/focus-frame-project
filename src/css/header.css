@@ -4,3 +4,10 @@ border-radius: 12px;
 width: 822px;
 height: 60px;
 }
+
+.header-logo{
+    color: #fff;
+    font-family: "DM Sans", sans-serif;
+    width: 123px;
+    height: 16px;
+}
