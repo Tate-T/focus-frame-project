@@ -5,16 +5,64 @@
     --bacground-color: #121212;
   }
 
-  .separation{
-    border: 1px solid rgba(255, 255, 255, 0.2);
+  .header{
+    font-family:"DM Sans", sans-serif ;
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    background-color: var(--bacground-color);
+  }
+
+  .header-containre{
+    background-color: var(--bacground-color);
+    display: flex;
+border: 1px solid rgba(255, 255, 255, 0.2);
 border-radius: 12px;
-width: 822px;
-height: 60px;
 }
 
 .header-logo{
-    color: #fff;
-    font-family: "DM Sans", sans-serif;
-    width: 123px;
-    height: 16px;
+  height: 16px;
+  width: 123px;
+  padding-left: 50px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+}
+
+
+.header-list{
+  display: flex;
+  gap: 28px;
+  margin-left: 97px;
+  padding-top: 21px;
+  padding-bottom: 21px;
+  padding-right: 50px;
+height: 18px;
+}
+
+.header-sections{
+  color: var(--wite-color);
+  font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+}
+
+.header-sections:hover{
+  color: var(--camera-bacground-color);
+}
+
+.header-button{
+  background-color: var(--wite-color);
+  color: var(--bacground-color);
+  border: none;
+  border-radius: 12px;
+padding: 16px 84px;
+width: 238px;
+height: 60px;
+margin-left: 20px;
+}
+
+.header-button:hover{
+  background-color: var(--gradient-color);
+  color: var(--camera-bacground-color);
+
 }
