@@ -4,3 +4,60 @@
     --gradient-color: #1D1D1D;
     --bacground-color: #121212;
   }
+
+  .our-mentors{
+    background-color: var(--bacground-color);
+    font-family: "DM Sans", sans-serif;
+    width: 1080px;
+height: 354px;
+  }
+
+.our-mentors-tytle{
+  color: var(--wite-color);
+  font-weight: 500;
+font-size: 48px;
+line-height: 112%;
+letter-spacing: -0.04em;
+}
+
+.our-mentors-span{
+color: var(--camera-bacground-color);
+}
+
+.mentors-list{
+  display: flex;
+  gap: 100px;
+}
+
+.mentors-listitem{
+  width: 180px;
+height: 250px;
+}
+
+.mentors-listitem-special{
+  width: 194px;
+height: 250px;
+}
+
+.mentors-photo{
+  border-radius: 200px;
+width: 180px;
+height: 180px;
+}
+
+.mentors-name{
+  font-weight: 500;
+font-size: 28px;
+line-height: 114%;
+text-align: center;
+color: var(--wite-color);
+}
+
+.mentors-experience{
+  font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+letter-spacing: -0.02em;
+text-align: center;
+color: rgba(255, 255, 255, 0.5);
+}
