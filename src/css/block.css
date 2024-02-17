@@ -4,3 +4,29 @@
     --gradient-color: #1D1D1D;
     --bacground-color: #121212;
   }
+.block-section{
+  background-color: var(--bacground-color);
+}
+.block-text{
+color: var(--camera-bacground-color);
+font-weight: 400;
+font-size: 59px;
+line-height: 108%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+.block-span{
+  color: var(--wite-color);
+  font-weight: 400;
+font-size: 59px;
+line-height: 108%;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+}
+
+
+.block-line{
+width: 1px;
+color: rgba(255, 255, 255, 0.2);
+}
