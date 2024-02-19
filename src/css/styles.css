@@ -21,3 +21,10 @@
   --gradient-color: #1D1D1D;
   --bacground-color: #121212;
 }
+
+.container {
+  width: 1080px;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-right: 100px;
+}
