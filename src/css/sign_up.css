@@ -4,3 +4,132 @@
     --gradient-color: #1D1D1D;
     --bacground-color: #121212;
   }
+
+.sign-up-section {
+  margin-top: 100px;
+  margin-bottom: 150px;
+  background-color: var(--bacground-color) ;
+}
+
+.sign-up-text {
+  font-family: "DM Sans" sans-serif;
+font-weight: 500;
+font-size: 48px;
+line-height: 112%;
+letter-spacing: -0.04em;
+color: var(--wite-color);
+display: flex;
+
+}
+
+.sign-up-span{
+  font-family: "DM Sans" sans-serif;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 112%;
+  letter-spacing: -0.04em;
+  color: var(--camera-bacground-color);
+}
+
+.sign-up-subtext {
+  font-family: "DM Sans" , sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+letter-spacing: -0.02em;
+color: var(--wite-color);
+width: 480px;
+display:block ;
+}
+
+.sign-up-namelabel{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+border-radius: 12px;
+width: 480px;
+height: 60px;
+background-color: var(--bacground-color);
+font-family: "DM Sans" ,  sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: var(--wite-color);
+padding-bottom: 14px;
+display: block;
+}
+
+.sign-up-emaillabel {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 480px;
+  height: 60px;
+  background-color: var(--bacground-color);
+  font-family: "DM Sans" ,  sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--wite-color);
+  padding-bottom: 14px;
+  display: block;
+}
+
+.sign-up-messagelabel {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 480px;
+  height: 120px;
+  background-color: var(--bacground-color);
+  font-family: "DM Sans" ,  sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--wite-color);
+  padding-bottom: 40px;
+  display: block;
+}
+
+.sign-up-button{
+  border-radius: 12px;
+padding-bottom: 20px ;
+width: 479px;
+height: 60px;
+background-color: var(--wite-color);
+display: block;
+}
+
+.sign-up-bottomtext{
+  font-family: "DM Sans" ,  sans-serif;
+  width: 480px;
+height: 36px;
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+color: rgba(255, 255, 255, 0.5);
+display: block;
+}
+
+.sign-up-bottomspan{
+  font-family: "DM Sans" ,  sans-serif;
+  width: 480px;
+height: 36px;
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+color: rgba(255, 255, 255, 0.5);
+text-decoration: underline;
+text-decoration-skip-ink: none;
+
+}
+
+.sign-up-camera{
+  border-radius: 1000px;
+width: 190px;
+height: 288px;
+background-color: var(--camera-bacground-color);
+}
+
+.sign-up-videocamera{
+  border-radius: 1000px;
+width: 350px;
+height: 540px;
+background-color: var(--gradient-color);
+}
