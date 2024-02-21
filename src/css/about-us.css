@@ -4,3 +4,19 @@
     --gradient-color:  #1D1D1D;
     --bacground-color: #121212;
   }
+  
+ .about-logo{
+font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 112%;
+  letter-spacing: -0.04em;
+  color: var(--white);
+ } 
+ .about-subtext {
+  color: #bea69e;
+ }
+.about-text {
+  display: flex;
+  align-items: center;
+}
