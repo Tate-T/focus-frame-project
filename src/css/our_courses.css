@@ -48,7 +48,11 @@
   line-height: 125%;
   letter-spacing: -0.02em;
   color: var(--wite-color);
+  width: 405px;
+  height: 80px;
+  padding-left: 75px;
 }
+
 
 .courses-list {
   width: 1081px;
@@ -60,8 +64,13 @@
 .courses-item {
   width: 347px;
   height: 452px;
-  border-radius: 5%;
+  border-radius: 3%;
   border: solid #BEA69E 1px;
+  background: linear-gradient(180deg, #060707 0%, #1d1d1d 100%);;
+}
+
+.box {
+   display: flex;
 }
 
 .courses-info {
@@ -75,6 +84,7 @@
   height: 64px;
   padding-left: 32px;
   padding-right: 50px;
+  padding-top: 32px;
 }
 
 .courses-descriptions {
@@ -98,4 +108,7 @@
 
 .courses-box {
    display: flex;
+   align-items: center;
+   margin-left: 32px;
+   margin-right: 32px;
 }
