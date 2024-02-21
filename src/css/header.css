@@ -7,8 +7,6 @@
 
   .header{
     font-family:"DM Sans", sans-serif ;
-    display: flex;
-    flex-wrap: nowrap;
     padding-top: 20px;
     padding-bottom: 80px;
     background-color: var(--bacground-color);
@@ -24,10 +22,7 @@ height: 60px;
 }
 
 .header-containre{
-  width: 1080px;
-  height: 60px;
   display: flex;
-  flex-wrap: nowrap;
 }
 
 .header-logo{
@@ -70,9 +65,6 @@ text-transform: uppercase;
   height: 60px;
   padding: 16px 84px;
 margin-left: 20px;
-font-weight: 700;
-font-size: 18px;
-line-height: 156%;
 }
 
 .header-button:hover{
