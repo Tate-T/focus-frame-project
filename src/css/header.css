@@ -8,24 +8,34 @@
   .header{
     font-family:"DM Sans", sans-serif ;
     display: flex;
+    flex-wrap: nowrap;
     padding-top: 20px;
     padding-bottom: 80px;
     background-color: var(--bacground-color);
   }
 
-  .header-containre{
+  .header-div{
     background-color: var(--bacground-color);
     display: flex;
 border: 1px solid rgba(255, 255, 255, 0.2);
 border-radius: 12px;
+width: 822px;
+height: 60px;
+}
+
+.header-containre{
+  width: 1080px;
+  height: 60px;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 .header-logo{
   height: 16px;
   width: 123px;
-  padding-left: 50px;
-  padding-top: 22px;
-  padding-bottom: 22px;
+  margin-left: 50px;
+  margin-top: 22px;
+  margin-bottom: 22px;
 }
 
 
@@ -35,8 +45,9 @@ border-radius: 12px;
   margin-left: 97px;
   padding-top: 21px;
   padding-bottom: 21px;
-  padding-right: 50px;
+  margin-right: 50px;
 height: 18px;
+width: 502px;
 }
 
 .header-sections{
@@ -55,10 +66,13 @@ text-transform: uppercase;
   color: var(--bacground-color);
   border: none;
   border-radius: 12px;
-padding: 16px 84px;
-width: 238px;
-height: 60px;
+  width: 238px;
+  height: 60px;
+  padding: 16px 84px;
 margin-left: 20px;
+font-weight: 700;
+font-size: 18px;
+line-height: 156%;
 }
 
 .header-button:hover{
