@@ -109,6 +109,9 @@
    align-items: center;
    margin-left: 32px;
    margin-right: 32px;
-   justify-content: space-between;
-   margin-bottom: 50px;
+}
+
+.box {
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
