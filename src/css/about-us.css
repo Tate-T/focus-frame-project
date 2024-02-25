@@ -5,18 +5,35 @@
     --bacground-color: #121212;
   }
   
+  .about {
+    background-color: var(--bacground-color);
+  }
+
  .about-logo{
-font-family: var(--font-family);
+font-family: "DM Sans" , sans-serif;
   font-weight: 500;
   font-size: 48px;
-  line-height: 112%;
+  /* line-height: 112%; */
   letter-spacing: -0.04em;
-  color: var(--white);
+  color: var(--wite-color);
  } 
  .about-subtext {
-  color: #bea69e;
+  color: var(--camera-bacground-color);
  }
 .about-text {
   display: flex;
-  align-items: center;
+  /* align-items: center; */
+  flex-wrap: nowrap;
+  width: 1080px;
+height: 260px;
+}
+
+.image-kamera {
+  height: 260px;
+}
+
+.section-text{
+  color: var(--wite-color);
+  height: 260px;
+  width: 266px;
 }
