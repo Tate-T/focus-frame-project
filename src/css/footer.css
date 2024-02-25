@@ -1,17 +1,51 @@
 :root {
-    --wite-color: #fff;
-    --camera-bacground-color: #BEA69E;
-    --gradient-color: #1D1D1D;
-    --bacground-color: #121212;
-  }
-
-.footer-teladress {
-  width: 143px;
-  height: 46px;
+  --wite-color: #fff;
+  --camera-bacground-color: #BEA69E;
+  --gradient-color: #1D1D1D;
+  --bacground-color: #121212;
 }
 
 .footer {
-  background-image: url(../img/footer-phone.webp);
-  width: 1278px;
-height: 331px;
+background-image: url(../img/footer-phone.webp);
+background-color: #121212;
+
+}
+
+
+
+.footer-tel {
+color:  var(--wite-color);
+font-family: DM Sans;
+position: static;
+width: 143px;
+height: 18px;
+font-size: 14px;
+}
+
+.footer-adress {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+color: var(--wite-color);
+}
+
+.rights {
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 129%;
+color: var(--wite-color);
+width: 181px;
+height: 36px;
+}
+
+.box-sox {
+width: 224px;
+height: 170px;
+}
+
+.footer-Socialnetworks {
+width: 77px;
+height: 94px;
 }
