@@ -29,3 +29,6 @@
   padding-right: 100px;
 }
 
+.background{
+  background: url(../img/background.webp), var(--bacground-color) ;
+}
