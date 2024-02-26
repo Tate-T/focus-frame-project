@@ -11,6 +11,11 @@
   background-color: var(--bacground-color) ;
 }
 
+.sign-up-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .sign-up-text {
   font-family: "DM Sans" sans-serif;
 font-weight: 500;
@@ -21,6 +26,9 @@ color: var(--wite-color);
 display: flex;
 
 }
+
+
+
 
 .sign-up-span{
   font-family: "DM Sans" sans-serif;
@@ -42,58 +50,81 @@ width: 480px;
 display:block ;
 }
 
-.sign-up-namelabel{
-  border: 1px solid rgba(255, 255, 255, 0.2);
-border-radius: 12px;
-width: 480px;
-height: 60px;
-background-color: var(--bacground-color);
-font-family: "DM Sans" ,  sans-serif;
-font-weight: 400;
-font-size: 16px;
-line-height: 125%;
-color: var(--wite-color);
-padding-bottom: 14px;
-display: block;
-}
-
-.sign-up-emaillabel {
+.sign-up-namecontainer{
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   width: 480px;
   height: 60px;
-  background-color: var(--bacground-color);
-  font-family: "DM Sans" ,  sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 125%;
-  color: var(--wite-color);
-  padding-bottom: 14px;
-  display: block;
+  margin-bottom: 14px;
 }
 
-.sign-up-messagelabel {
+.sign-up-namecontainer:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.sign-up-emailcontainer{
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  width: 480px;
+  height: 60px;
+  margin-bottom: 14px;
+}
+
+.sign-up-emailcontainer:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.sign-up-messagecontainer{
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 12px;
   width: 480px;
   height: 120px;
+  margin-bottom: 20px;
+}
+
+
+.sign-up-messagecontainer:hover {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+
+
+.namelabel{
+  border: none;
   background-color: var(--bacground-color);
-  font-family: "DM Sans" ,  sans-serif;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 125%;
+}
+
+.namelabel:hover{
+  border: none;
   color: var(--wite-color);
-  padding-bottom: 40px;
-  display: block;
+}
+
+.emaillabel{
+  border: none;
+  background-color: var(--bacground-color);
+}
+.emaillabel:hover{
+  color: var(--wite-color);
+}
+
+.messagelabel{
+  border: none;
+  background-color: var(--bacground-color);
+}
+
+.messagelabel:hover{
+  color: var(--wite-color);
 }
 
 .sign-up-button{
+  font-family: "DM Sans" sans-serif;
   border-radius: 12px;
-padding-bottom: 20px ;
 width: 479px;
 height: 60px;
 background-color: var(--wite-color);
 display: block;
+font-weight: 700;
 }
 
 .sign-up-bottomtext{
