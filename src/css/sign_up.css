@@ -17,21 +17,20 @@
 }
 
 .sign-up-text {
-  font-family: "DM Sans" sans-serif;
+  font-family: "DM Sans" , sans-serif;
 font-weight: 500;
 font-size: 48px;
 line-height: 112%;
 letter-spacing: -0.04em;
 color: var(--wite-color);
 display: flex;
+margin-bottom: 20px;
 
 }
 
 
-
-
 .sign-up-span{
-  font-family: "DM Sans" sans-serif;
+  font-family: "DM Sans" , sans-serif;
   font-weight: 500;
   font-size: 48px;
   line-height: 112%;
@@ -47,7 +46,8 @@ line-height: 125%;
 letter-spacing: -0.02em;
 color: var(--wite-color);
 width: 480px;
-display:block ;
+display: block ;
+margin-bottom: 40px;
 }
 
 .sign-up-namecontainer{
@@ -56,6 +56,7 @@ display:block ;
   width: 480px;
   height: 60px;
   margin-bottom: 14px;
+  margin-right: 60px;
 }
 
 .sign-up-namecontainer:hover {
@@ -118,7 +119,7 @@ display:block ;
 }
 
 .sign-up-button{
-  font-family: "DM Sans" sans-serif;
+  font-family: "DM Sans" , sans-serif;
   border-radius: 12px;
 width: 479px;
 height: 60px;
@@ -151,16 +152,45 @@ text-decoration-skip-ink: none;
 
 }
 
-.sign-up-camera{
-  border-radius: 1000px;
-width: 190px;
-height: 288px;
-background-color: var(--camera-bacground-color);
+.sing-up-imagecontainer{
+  display: flex;
+  align-items: end;
+  gap: 20px;
 }
 
-.sign-up-videocamera{
+.sign-up-camera{ 
+   display: inline;
+width: 150px;
+height: 142px;
+padding-top: 76px;
+padding-bottom: 62px;
+padding-left: 19px;
+padding-right: 19px;
+}
+
+.sign-up-cameracontainer{
+
   border-radius: 1000px;
-width: 350px;
-height: 540px;
-background-color: var(--gradient-color);
+  width: 190px;
+  height: 288px;
+  background-color: var(--camera-bacground-color);
+}
+
+.sign-up-videocamera{ 
+   display: inline;
+
+width: 240px;
+height: 296px;
+padding-top: 156px;
+padding-bottom: 88px;
+padding-left: 50px;
+padding-right: 50px;
+
+}
+
+.sign-up-videcameracontainer{
+  border-radius: 1000px;
+  width: 350px;
+  height: 540px;
+  background-color: var(--gradient-color);
 }
