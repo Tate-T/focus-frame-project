@@ -58,7 +58,16 @@ color: var(--wite-color);
   letter-spacing: 0%;
   text-align: left;
   color: var(--wite-color);
+  width: 171px;
+  height: 36px;
 }
+
+footer {
+  width: 1278px;
+  height: 331px;
+}
+
+
 
 .rights {
   width: 171px;
@@ -67,6 +76,30 @@ color: var(--wite-color);
   right: 1007px;
   top: 270px;
   bottom: 25px;
+}
+
+.info-box {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  width: 224px;
+  height: 170px;
+}
+
+.Socialnetworks-item {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--wite-color);
+}
+
+.we-text {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--wite-color);
 }
 
 .box-sox {
