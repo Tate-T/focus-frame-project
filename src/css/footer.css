@@ -58,8 +58,6 @@ color: var(--wite-color);
   letter-spacing: 0%;
   text-align: left;
   color: var(--wite-color);
-  width: 171px;
-  height: 36px;
 }
 
 footer {
@@ -82,8 +80,7 @@ footer {
   display: flex;
   gap: 50px;
   justify-content: center;
-  width: 224px;
-  height: 170px;
+  outline: red solid;
 }
 
 .Socialnetworks-item {
@@ -92,6 +89,10 @@ footer {
   font-size: 14px;
   text-transform: uppercase;
   color: var(--wite-color);
+}
+
+.box {
+  display: flex;
 }
 
 .we-text {
@@ -115,4 +116,8 @@ height: 170px;
 .footer-Socialnetworks {
 width: 77px;
 height: 94px;
+}
+
+.policy-span {
+  display: block;
 }
