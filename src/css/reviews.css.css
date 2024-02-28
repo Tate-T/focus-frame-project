@@ -1,6 +1,42 @@
 :root {
-    --wite-color: #fff;
-    --camera-bacground-color: #BEA69E;
-    --gradient-color: #1D1D1D;
-    --bacground-color: #121212;
-  }
+  --wite-color: #fff;
+  --camera-bacground-color: #BEA69E;
+  --gradient-color: #1D1D1D;
+  --bacground-color: #121212;
+}
+
+.reviews-list {
+  display: flex;
+}
+
+.reviews-itome {
+  border: 2px solid gray;
+  padding: 20px;
+  border-radius: 12px;
+  width: 100%;
+  border-radius: 12px;
+  background-color: #121212;
+}
+
+.reviews-title {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 4px;
+}
+
+.reviews-logo {
+  font-size: 48px;
+  margin-bottom: 40px;
+}
+
+.reviews-text {
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.28;
+  letter-spacing: -0.28px;
+}
+
+.reviews-section {
+background-color: #121212;
+}

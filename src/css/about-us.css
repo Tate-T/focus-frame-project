@@ -1,22 +1,22 @@
 :root {
-    --wite-color: #fff;
-    --camera-bacground-color: #BEA69E;
-    --gradient-color:  #1D1D1D;
-    --bacground-color: #121212;
-  }
-  
- .about-logo{
-font-family: var(--font-family);
+  --wite-color: #fff;
+  --camera-bacground-color: #BEA69E;
+  --gradient-color: #1D1D1D;
+  --bacground-color: #121212;
+}
+
+.about-logo {
   font-weight: 500;
   font-size: 48px;
-  line-height: 112%;
-  letter-spacing: -0.04em;
-  color: var(--white);
- } 
- .about-subtext {
+}
+
+.about-subtext {
   color: #bea69e;
- }
+}
+
 .about-text {
   display: flex;
   align-items: center;
+  font-size: 14px;
+
 }
