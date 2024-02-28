@@ -28,4 +28,12 @@ button {
   cursor: pointer;
 }
 
+input{
+  border:none ;
+}
+
+button{
+  border: none;
+}
+
 
