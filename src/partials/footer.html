@@ -1,72 +1,106 @@
-<!-- Початок -->
-<section class="footer">
-  <div class="continer">
-    <div class="box">
-      <div class="footer-info">
-        <img src="../img/logo.webp" class="logo-footer" alt="logo in footer" />
-        <ul class="footer-teladress">
-          <li class="teladress-item">
-            <h2 class="footer-tel">UA: +38 066 543 8912</h2>
-          </li>
-          <li class="teladress-item">
-            <address class="adres">Ukraine, Kyiv</address>
-          </li>
-        </ul>
+<footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-wrap">
+      <div class="footer-frame-section">
+        
+        <div class="footer-contacts">
+          <img src="../img/logo.webp" class="footer-logo" alt="logo">
+          <address class="footer-address">
+            <a href="tel:+380665438912" class="footer-phone-contacts">
+              UK: +38 066 543 8912
+            </a>
+            <a
+              href="https://maps.app.goo.gl/dxjbgBepBaQgaq7U7"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-country"
+            >
+              Ukraine, Kyiv
+            </a>
+          </address>
+        </div>
       </div>
-      <!-- соц Мережі -->
-      <div class="info-box">
-        <ul class="footer-Socialnetworks">
-          <li class="Socialnetworks">
-            <h2 class="Socialnetworks-item">INSTAGRAM</h2>
+
+      <div class="footer-nav-section">
+        <ul class="footer-soc-list">
+          <li class="footer-soc-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-soc-name"
+            >
+              Instagram
+            </a>
           </li>
-          <li class="Socialnetworks">
-            <h2 class="Socialnetworks-item">FACEBOOK</h2>
+          <li class="footer-soc-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-soc-name"
+            >
+              Facebook
+            </a>
           </li>
-          <li class="Socialnetworks">
-            <h2 class="Socialnetworks-item">YOUTUBE</h2>
+          <li class="footer-soc-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-soc-name"
+            >
+              Youtube
+            </a>
           </li>
         </ul>
 
-        <!-- ми -->
-        <ul class="courses-we">
-          <li class="we-item">
-            <h2 class="we-text">ABOUT US</h2>
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item">
+            <a href="#about" class="footer-soc-name">About Us</a>
           </li>
-          <li class="we-item">
-            <h2 class="we-text">OUR COURSES</h2>
+          <li class="footer-menu-item">
+            <a href="#courses" class="footer-soc-name">Our Courses</a>
           </li>
-          <li class="we-item">
-            <h2 class="we-text">OUR MENTORS</h2>
+          <li class="footer-menu-item">
+            <a href="#mentors" class="footer-soc-name">Our Mentors</a>
           </li>
-          <li class="we-item">
-            <h2 class="we-text">REVIEWS</h2>
+          <li class="footer-menu-item">
+            <a href="#reviews" class="footer-soc-name">Reviews</a>
           </li>
-          <li class="we-item">
-            <h2 class="we-text">CONTACTS</h2>
+          <li class="footer-menu-item">
+            <a href="#footer" class="footer-soc-name">Contacts </a>
           </li>
         </ul>
       </div>
-<div class="footer-inor">
-      <input
-        type="email"
-        id="email"
-        pattern=".+@example\.com"
-        size="30"
-        class="input-email"
-        placeholder="Enter your email"
-      />
-      <button type="reset" class="button-input">Go</button>
-    </div>
-    </div>
-    <div class="rights">
-      <h2 class="rights-text">
-        <span class="policy-span">Privacy Policy</span> Public Offering
-        Agreement
-      </h2>
+
+      <div class="footer-form-container">
+        <form class="footer-form">
+          <label for="footer-email" class="footer-label">
+            <input
+              id="footer-email"
+              name="footer-email"
+              type="email"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              placeholder="Enter your email"
+              class="footer-input"
+              required
+            />
+          </label>
+          <button type="submit" class="footer-form-button">Go</button>
+        </form>
+      </div>
     </div>
 
-    <div class="info">
-      <h2 class="info-text">2023 Focus Frame © All rights reserved</h2>
+    <div class="footer-last-part">
+      <p class="footer-text">
+        Privacy policy<br />
+        Public Offering Agreement
+      </p>
+      <p class="footer-text">
+        2023 Focus Frame<br />
+        © All rights reserved
+      </p>
     </div>
   </div>
-</section>
+</footer>
