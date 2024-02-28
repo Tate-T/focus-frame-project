@@ -92,30 +92,48 @@ margin-bottom: 40px;
 
 
 .namelabel{
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
   border: none;
   background-color: var(--bacground-color);
+  outline: none;
+  color: var(--gradient-color);
 }
 
 .namelabel:hover{
-  border: none;
   color: var(--wite-color);
 }
 
 .emaillabel{
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 18px;
   border: none;
+  color: var(--gradient-color);
   background-color: var(--bacground-color);
+  outline: none;
 }
 .emaillabel:hover{
   color: var(--wite-color);
 }
 
 .messagelabel{
+  border-radius: 12px;
+  padding-top: 20px;
+  padding-bottom: 79px;
+  padding-left: 18px;
   border: none;
+  color: var(--gradient-color);
   background-color: var(--bacground-color);
+  outline: none;
 }
 
 .messagelabel:hover{
   color: var(--wite-color);
+  
 }
 
 .sign-up-button{
@@ -126,6 +144,19 @@ height: 60px;
 background-color: var(--wite-color);
 display: block;
 font-weight: 700;
+margin-bottom: 20px;
+}
+
+.sign-up-button:hover{
+  font-family: "DM Sans" , sans-serif;
+  border-radius: 12px;
+width: 479px;
+height: 60px;
+background-color: var(--gradient-color);
+color: var(--camera-bacground-color);
+display: block;
+font-weight: 700;
+border: none;
 }
 
 .sign-up-bottomtext{

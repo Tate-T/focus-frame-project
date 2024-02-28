@@ -6,6 +6,7 @@
   }
 .block-section{
   background-color: var(--bacground-color);
+  height: 80px;
 }
 .block-text{
 color: var(--camera-bacground-color);
@@ -26,7 +27,19 @@ text-transform: uppercase;
 }
 
 
-.block-line{
-width: 1px;
-color: rgba(255, 255, 255, 0.2);
+.block-lineup{
+height: 1px;
+background-color: rgba(255, 255, 255, 0.2);
+}
+
+.block-linebottom{
+  margin-top: 0px;
+  display: block;
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.block-container{
+  display: flex;
+  justify-content: center;
 }
