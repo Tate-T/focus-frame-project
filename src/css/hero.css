@@ -4,6 +4,10 @@
     --gradient-color: #1D1D1D;
     --bacground-color: #121212;
   }
+
+  .hero {
+    padding-bottom: 150px;
+  }
   
   .hero-containre{
     border-radius: 30px;

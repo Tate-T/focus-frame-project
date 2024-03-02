@@ -8,6 +8,10 @@
     --number: rgba(255, 255, 255, 0.4);
   }
 
+.courses{
+  padding-top: 150px;
+}
+
 .courses-number {
   font-weight: 400;
   font-size: 14px;
