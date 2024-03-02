@@ -5,6 +5,7 @@
     --bacground-color: #121212;
   }
 .block-section{
+  padding-bottom: 150px;
   background-color: var(--bacground-color);
   height: 80px;
 }
