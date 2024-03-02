@@ -31,4 +31,5 @@
 
 .background{
   background: url(../img/background.webp), var(--bacground-color) ;
+  background-attachment: fixed;
 }
