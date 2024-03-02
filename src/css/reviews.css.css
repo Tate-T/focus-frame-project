@@ -1,6 +1,55 @@
 :root {
-    --wite-color: #fff;
-    --camera-bacground-color: #BEA69E;
-    --gradient-color: #1D1D1D;
-    --bacground-color: #121212;
-  }
+  --wite-color: #fff;
+  --camera-bacground-color: #BEA69E;
+  --gradient-color: #1D1D1D;
+  --bacground-color: #121212;
+}
+
+.reviews-logo {
+  font-size: 48px;
+  margin-bottom: 50px;
+  color: var(--wite-color);
+}
+
+.reviews-title {
+  line-height: 1.5;
+  margin-bottom: 4px;
+  color: var(--wite-color);
+}
+
+.reviews-itome {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  width: 100%;
+  background-color: var(--bacground-color);
+  width: 530px;
+  height: 216px;
+  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.reviews-text {
+  color: var(--wite-color);
+  line-height: 1.30;
+  width: 490px;
+  height: 80px;
+}
+
+.reviews-list {
+  display: flex;
+  gap: 20px;
+}
+
+.reviews-student {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.reviews-image {
+  background-color: var(--bacground-color);
+}
+
+.reviews-section {
+  background-color: var(--bacground-color);
+}
