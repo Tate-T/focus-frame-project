@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/focus-frame-project/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
+      rel="stylesheet"
+    />
+    
+    <script type="module" crossorigin src="/focus-frame-project/assets/index-9707f069.js"></script>
+    <link rel="stylesheet" href="/focus-frame-project/assets/index-1d8a042f.css">
+  </head>
+  <body>
+    <!-- Loads the specified .html file -->
+    <div class="background">
+        <header class="header">
+        <div class="container header-containre">
+        <div class="header-div">
+        <img src="data:image/webp;base64,UklGRnwCAABXRUJQVlA4WAoAAAAQAAAAewAAEAAAQUxQSBACAAABkFXbdt1WG4IY5EAwBEEwgysGFYOIQcxAYZAyEIRAOBAEYX1IcvMY9z8iJoCzSd9YOOn6/P+et3n8mjav35F0NpiFE2b2GjMLp1znzQYzO2MWBrOVmb1iawAtTa4d8KsU3dtwuO8K1w7Qtlc83GODS7h1gGqSu1sDbvrp4Pvw0wG//ukfy6ukG/OmCD7cIamyjC9o0IGLM/cgwBkr0yhV5nXS6jRaBz9KA6ISUNMdSOcCsFt8wO+q1+ltAHqGnmNyyEM/igO95A5NCSj7AcRhmSp4kHSHpgdUSQe0cwbdJGutrpY+2aUCWdIBdUhSBJKUwfWEIqnA77knZEmK0OUQJYWU9nOhg9c9aPmnqnnYsi82yYAgGXgAdjOL0IcjTkOHOATgAlw0P6fEtKUTPU63IQ1bdaaTy0wz42wAkuYfIrs7Y125losI4PXxBl9eTjnkYQPksEuylPZVm0ja0hO4vKzBI0jlRQKClqcOaEOFpjs0STf4NSBIBqTD/ZAkhxhjtJd02CS1VzUokqyUdM46eE4NiIpATRVI6uA5+7ADebMrEID0qpvCjVdl4BqTQzmnzLJIOpgXKTN1SGosD73sYP0aNeYe5O77SrENz11jcaBnSSpAz9l9l4oPvUjuvmf3trq775LCfWjZ/ZC7D+4+uDdJxYFegv4eYjStt2iah7gFrbcYTe8NcQt66xa3IElWUDggRgAAALAEAJ0BKnwAEQA+kTyZSCWjIqEuCACwEglpAABsd8yJXsfr6pddmT9SRPsVKgAA/vhNCLG//40Np/9ZAcP/ScHv/zogAAA=" alt="Focus.Frame" class="header-logo">
+        <ul class="header-list">
+            <li class="header-sections">ABOUT US</li>
+            <li class="header-sections">OUR COURSES</li>
+            <li class="header-sections">OUR MENTORS</li>
+            <li class="header-sections">REVIEWS</li>
+            <li class="header-sections">CONTACTS</li>
+        </ul>
+    </div>
+        <button class="header-button"> <span class="header-span">SIGN UP</span></button>
+    </div>
+    </header>
+    <section class="hero">
+  <div class="container">
+  <div class="containre hero-containre">
+    <h2 class="hero-tytle">
+      Discover the magic of
+      <span class="hero-photography">photography</span> in our school
+    </h2>
+    <p class="hero-text">
+      Our photography school offers an unforgettable journey, where you can
+      learn the basics of composition, master technical skills, translate your
+      unique ideas.
+    </p>
+    <div class="hero-students-containre">
+      <div class="hero-students-look">
+        <img src="data:image/webp;base64,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" alt="students" class="hero-students" />
+        <div class="hero-happy-students">
+          <p class="hero-see-students">Our happy students</p>
+          <p class="hero-arrow">→</p>
+        </div>
+      </div>
+      <div class="hero-students-reviews">
+        <img
+          src="data:image/webp;base64,UklGRjgCAABXRUJQVlA4WAoAAAAQAAAAMQAAMQAAQUxQSOUAAAABgFDbTl3pSoiDFymVgoOpg6kD4oDnoBKQEAmRgITMt4VbAxExAZiopXqMzIxei2K9fEbejKprtp5Tm87TM6c3nfQxcmGUKTUX13viudzlhngSulzzpPRLNUnrhZK0+z8aPEP/akl8/qFJvf1qXB2AJrkAxnYAwRbQpH8VvmJ81vk8+CL5xwMeOR4QfOF83fis8BXlUwRbAAebAcKmADpXA4CNS3/hZGr4UwdP6F/YeQr+NxbDVedwXBZncLkG8XUuuG2rDDNLrBg75up73qmYru85fcNStbgTh2C9FuuRmSPcimIiAFZQOCAsAQAAUAYAnQEqMgAyAD6RRJxKpaOioaILuLASCWUAvMWrOz+fAFrh1MrP/UqFfE1j++J30SrGWHwdSbbZa4AA/u6fHMKjt9YgHgaiBPLWbhGd2F2Mf8dV///aFnLhVq3WYjTHo8/zbtwM7UuLs8Vu2euRj45XwAsPbqPKoHq/4lgxnzyC+JLi5Ly8zybx2lbxezPd4zcKkCUZW3hycA7wvTHrUN634xNUOWHrYYHDnRfyvBF5thgcRFni8FlwUYtQj7c9yWxGbHyoR2mS0Jw18jZDK3nIJQmImREJocxR1wCaILIS+loYIoASt1DZw2zPTZwF9oAm9Euv/aQb//7YXF2Oju7DXFMqNSR9xv//21fi9cqilCi3CvAYEpr/7Iv//s4LExxZtxTg9gp4AAAA"
+          alt="cyrcle with star inside"
+          class="hero-star"
+        />
+        <div class="hero-reviews-mini">
+          <p class="hero-reviews">Reviews</p>
+          <p class="hero-number">+1500</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+  </div>
+    
+    <section class="block-section">
+        <div class="block-lineup"></div>
+        <div class="block-container">
+        <h1 class="block-text">MASTER <span class="block-span">YOUR PHOTOGRAPHY</span> SKILLS WITH US!</h1>
+        </div>
+        <div class="block-linebottom"></div>
+    </section>
+    <section class="about">
+  <div class="container">
+    <h2 class="about-logo">About <span class="about-subtext"> Us </span></h2>
+    <div class="about-text">
+      <img src="/focus-frame-project/assets/camera-80bed543.webp" class="image-kamera" alt="rectangle" />
+      <p class="section-text">
+        Our photography school is designed to teach you everything you need to
+        know about this magical art. Regardless of your experience or skill
+        level, we offer a wide range of courses to suit your needs and
+        interests. Our teaching team consists of experienced photographers who
+        have many years of experience in this field. They strive not only to
+        share their knowledge, but also to inspire you to develop and express
+        your unique creativity.
+      </p>
+      <p class="section-text">
+        Our courses cover a wide range of topics, from the basics of photography
+        and equipment use to professional image processing and creating
+        impressive compositions. You will have the opportunity to learn the
+        technical aspects of photography, discover your own style and develop
+        your own visual language.
+      </p>
+    </div>
+  </div>
+</section>
+
+    
+    <section class="courses">
+        <div class="container">
+        <div class="box">
+        <h2 class="courses-title">Our <span class="courses-text">Courses</span></h2>
+        <p class="courses-description">At our photography school, we offer a variety of courses that cover all aspects of this fascinating art. Regardless of your experience or skill level, we have courses to suit your needs and goals.</p>
+    </div>
+        <ul class="courses-list">
+            <li class="courses-item">
+                <div class="courses-box">
+                    <h3 class="courses-number">01</h3>
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJLSURBVHgBvVdNTsJAFH4thQ2B4A4Di3bFiog7d+oN9AR6A70BcgO9ge505w2UHUsNKzY4YUVIiCSExIQAvm8ykAKFTmHKl5QO0+l8b76Z91OLNJFjpNPpK9u2z2ezWcWyLBfd6vGA+wT3fXG7PhwO3wcMnXmtsAH5fN5NJpN33Lz1EergeTwe17rdrqBdDMCKs9lslVd2T/vhkRWpbVIk0AC16g9uumQGgtW4DFLDXu0oFAoVw+SAXBDmXn2wpEAMK1/FmhILBbDnMZMDcoHgWjMABy5m8oURmUymOv8jt0BJ/0MHBG+Fh62QCjB5lQ4Mx3Gke1uu6+Ymk8lvlJc5IlK5XN74vNfrUbvdphAMOD54DpNfkSEUi0VKpVKyrWGADO0ON84pIkajETUajaU+KAJy3lvdaQh5xVGJhfYByHE1m025PboAt62ymhFyXFEAbnhBlAxnjFwhZ9OOMEAuAQO0Coc4yMHtqEqmovtGGHkUg8CNQ/it+4LOyuGiuHSAEs6eTqefOoNLpZIp2f2oz0MxEtFWb/A8TwaaVqtFpsCh+CjBpdofp+JjluNs22CUdP1+nwzimXPGm3RDzkyPdGAkEomavOMHFSurcBSmginw6X/qdDqvaC8CEavwwDdB8UMoLloyQAgxYFkuYzZCgANcawYoIzDgOiYj5Nzg8HcG5mF2TZdd0+iHiVq5WH0QmIyUEqc4LLQnMAfmCiIHQisRpcYDN29IH/hafoF7byLWNsBnSE7Vjxc8+cmmz3MO7XWust/9B20b/gE+JSeap/moiQAAAABJRU5ErkJggg==" class="courses-img" alt="arrow2">                
+                </div>
+                <h2 class="courses-info">Basics of photography</h2>
+                <p class="courses-descriptions">During this course, you will be able to familiarize yourself with different types of cameras, learn the basics of composition.</p>
+            </li>
+            <li class="courses-item">
+                <div class="courses-box">
+                    <h3 class="courses-number">02</h3>
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJLSURBVHgBvVdNTsJAFH4thQ2B4A4Di3bFiog7d+oN9AR6A70BcgO9ge505w2UHUsNKzY4YUVIiCSExIQAvm8ykAKFTmHKl5QO0+l8b76Z91OLNJFjpNPpK9u2z2ezWcWyLBfd6vGA+wT3fXG7PhwO3wcMnXmtsAH5fN5NJpN33Lz1EergeTwe17rdrqBdDMCKs9lslVd2T/vhkRWpbVIk0AC16g9uumQGgtW4DFLDXu0oFAoVw+SAXBDmXn2wpEAMK1/FmhILBbDnMZMDcoHgWjMABy5m8oURmUymOv8jt0BJ/0MHBG+Fh62QCjB5lQ4Mx3Gke1uu6+Ymk8lvlJc5IlK5XN74vNfrUbvdphAMOD54DpNfkSEUi0VKpVKyrWGADO0ON84pIkajETUajaU+KAJy3lvdaQh5xVGJhfYByHE1m025PboAt62ymhFyXFEAbnhBlAxnjFwhZ9OOMEAuAQO0Coc4yMHtqEqmovtGGHkUg8CNQ/it+4LOyuGiuHSAEs6eTqefOoNLpZIp2f2oz0MxEtFWb/A8TwaaVqtFpsCh+CjBpdofp+JjluNs22CUdP1+nwzimXPGm3RDzkyPdGAkEomavOMHFSurcBSmginw6X/qdDqvaC8CEavwwDdB8UMoLloyQAgxYFkuYzZCgANcawYoIzDgOiYj5Nzg8HcG5mF2TZdd0+iHiVq5WH0QmIyUEqc4LLQnMAfmCiIHQisRpcYDN29IH/hafoF7byLWNsBnSE7Vjxc8+cmmz3MO7XWust/9B20b/gE+JSeap/moiQAAAABJRU5ErkJggg==" class="courses-img" alt="arrow">
+                </div>
+                <h2 class="courses-info">Landscape photography</h2>
+                <p class="courses-descriptions">In this course, you'll learn how to choose the right angles, frame landscapes, and create depth and perspective in your images.</p>
+            </li>
+            <li class="courses-item">
+                <div class="courses-box">
+                    <h3 class="courses-number">03</h3>
+                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJLSURBVHgBvVdNTsJAFH4thQ2B4A4Di3bFiog7d+oN9AR6A70BcgO9ge505w2UHUsNKzY4YUVIiCSExIQAvm8ykAKFTmHKl5QO0+l8b76Z91OLNJFjpNPpK9u2z2ezWcWyLBfd6vGA+wT3fXG7PhwO3wcMnXmtsAH5fN5NJpN33Lz1EergeTwe17rdrqBdDMCKs9lslVd2T/vhkRWpbVIk0AC16g9uumQGgtW4DFLDXu0oFAoVw+SAXBDmXn2wpEAMK1/FmhILBbDnMZMDcoHgWjMABy5m8oURmUymOv8jt0BJ/0MHBG+Fh62QCjB5lQ4Mx3Gke1uu6+Ymk8lvlJc5IlK5XN74vNfrUbvdphAMOD54DpNfkSEUi0VKpVKyrWGADO0ON84pIkajETUajaU+KAJy3lvdaQh5xVGJhfYByHE1m025PboAt62ymhFyXFEAbnhBlAxnjFwhZ9OOMEAuAQO0Coc4yMHtqEqmovtGGHkUg8CNQ/it+4LOyuGiuHSAEs6eTqefOoNLpZIp2f2oz0MxEtFWb/A8TwaaVqtFpsCh+CjBpdofp+JjluNs22CUdP1+nwzimXPGm3RDzkyPdGAkEomavOMHFSurcBSmginw6X/qdDqvaC8CEavwwDdB8UMoLloyQAgxYFkuYzZCgANcawYoIzDgOiYj5Nzg8HcG5mF2TZdd0+iHiVq5WH0QmIyUEqc4LLQnMAfmCiIHQisRpcYDN29IH/hafoF7byLWNsBnSE7Vjxc8+cmmz3MO7XWust/9B20b/gE+JSeap/moiQAAAABJRU5ErkJggg==" class="courses-img" alt="arrow2">
+                </div>
+                <h2 class="courses-info">Portrait photography</h2>
+                <p class="courses-descriptions">During this course, you will learn to choose the right lighting, reproduce the mood and expressions on the faces of the models.</p>
+            </li>
+        </ul>
+    </div>
+    </section>
+
+        <section class="our-mentors">
+        <div class="container">
+    <h1 class="our-mentors-tytle">Our <span class="our-mentors-span">Mentors</span></h1>
+    <ul class="mentors-list">
+        <li class="mentors-listitem">
+            <img src="/focus-frame-project/assets/mentor1-f927ef08.webp" alt="mentor woman" class="mentors-photo">
+            <h2 class="mentors-name">Emilia Smith</h2>
+            <p class="mentors-experience"> 1.5 years of experience</p>
+        </li>
+        <li class="mentors-listitem">
+            <img src="/focus-frame-project/assets/mentor2-898affb5.webp" alt="mentor man" class="mentors-photo">
+            <h2 class="mentors-name">Alex Lebedev</h2>
+            <p class="mentors-experience"> 3.5 years of experience</p>
+        </li>
+        <li class="mentors-listitem-special">
+            <img src="/focus-frame-project/assets/mentor3-d4278a02.webp" alt="mentor woman" class="mentors-photo">
+            <h2 class="mentors-name">Mia Dubrovska</h2>
+            <p class="mentors-experience"> 2.0 years of experience</p>
+        </li>
+        <li class="mentors-listitem">
+            <img src="/focus-frame-project/assets/mentor4-71878499.webp" alt="mentor man" class="mentors-photo">
+            <h2 class="mentors-name">Eliot Kovalev</h2>
+            <p class="mentors-experience"> 4.0 years of experience</p>
+        </li>
+    </ul>
+</div>
+</section>
+
+    
+    <section class="sign-up-section" lang="en">
+      <div class="container">
+        <div class="sign-up-container">
+        <div class="sing-up-textcontainer">
+      <h1 class="sign-up-text">Sign<span class="sign-up-span">Up</span></h1>
+      <p class="sign-up-subtext">
+        Please use the form below to contact us. Enter your name, email, and
+        message and we'll get back to you shortly.
+      </p>
+      <div class="sign-up-namecontainer">
+      <label   class="sign-up-namelabel"><input type="text" placeholder="Enter your name" class="namelabel"/></label>
+    </div>
+    <div class="sign-up-emailcontainer">
+      <label  class="sign-up-emaillabel"><input type="text" placeholder="Enter your email" class="emaillabel"/></label>
+    </div>
+    <div class="sign-up-messagecontainer">
+      <label  class="sign-up-messagelabel"><input type="text" placeholder="Message" class="messagelabel"/></label>
+    </div>
+      <button class="sign-up-button">SEND</button>
+      <h5 class="sign-up-bottomtext">
+        By clicking on “Send” button, you agree to our <span class="sign-up-bottomspan"> Privacy Policy</span>, and allow
+        Promodo to use this information for marketing purposes.
+      </h5>
+    </div>
+    <div class="sing-up-imagecontainer">
+      <div class="sign-up-cameracontainer">
+      <img src="/focus-frame-project/assets/camera-for-sign_up-49d98a69.webp" alt="camera" class="sign-up-camera">
+    </div>
+    <div class="sign-up-videcameracontainer">
+      <img src="/focus-frame-project/assets/videocam-for-sign_up-78403abb.webp" alt="camera-too" class="sign-up-videocamera">
+    </div>
+    </div>
+  </div>
+  </div>
+    </section>
+
+
+    <section class="reviews-section">
+  <div class="reviews-container">
+    <h2 class="reviews-logo">Reviews</h2>
+    <ul class="reviews-list">
+      <li class="reviews-itome">
+        <img src="data:image/webp;base64,UklGRogFAABXRUJQVlA4IHwFAABwHgCdASpwAHAAPpE6lkgloyIhL7StGLASCWUA1Aygx1fduifE7GtHVy/NNtNY8pb4/0QFU05woqZwX/4ZdsNz6hPUNLkuGib/LypBxT4Tps66fAiC2VAMVWxJHskUpk6qJWgCdf/nD7NkADa3kw276JcihRplXJ0RPMxsm36HLXTNR7W79SIL2/x0oJ8iySCu/JQn0j5fVC41Qw7w3bCmzalvAwBB48fKctYb9hOBVq/90jOpbBxje5CyEjwWw3gi+KuDRYonOHP4ncnsBxoOju2jb33WpeBFKPbJPSCCs0E5snMmWmbsslS/6YivRF5+XRrKNhKySsigrOAA/vxKJGH87EyD5C9j5rU/WGxg+7m7oBx5Xl6G84PEK5qUIf0JwP9DIlsKUIlmHg+0SP5pGnaBAN25y1Fo/pYq96kT2O/uR5fDE+jvWidRgR1gHqwjxpA3tmHznEIhV15AFj2J/fbNS+s7jXGgSThbSbqHQkF0QrEMNFjkw0sL+P5W7+2Q15gMv4gIM/wYOVUsCs/x7VN8eEQt2JTPnTKjZovPbirWTEhzyhIhiuMHclYv5I7q0m5AGbFBZevuqRsY66VAa3j8G4AyQaIpE2ZrFXVd+NIAOCHFvftGwLOD8zmNypaCzm8Bi4J4fzTMvFVkHUto+C08GTmbRP3i9EU3dj9caCMpPvYhwBWQv+gyLh8S1AmbUQRZspuxJ8yWP6U/deLOluhvRWC9z0/wjiB3cM0vhvKVs6DP7OYCxXijMNEy6Rb3Ybm0DDF28bhUQ8/h6ZYfx2PdQRtDJJMqgU0YUhZAK1qw3cMj5H6R76B1sOnHQZLSs5f0nWjfhZSfK3xa3v6Wkd1xHeXUh9nc1WUh/bXQAEHIpMKhk0fw9OlBgRZpziaHxk6iHB2/XVl++n856j3YrgQvV7DAavFq9S32IIyTglVq/WxQYClZRoLk6pU3xqYP3ATFuFZQB4TzwYJ8EYAIEpcgScK85x/mBqSzY5s10lTFAAekIc//BqFq9XizGShDQdQzpnjY8FH4YZ/PASUj46JRxsf/yNDAgCRrPr46xF1XpZyE6fvE3bmCPONaTQQsQ1hJG6j61iThdS+jbUvtq+RP9l8+EOdDBVMBfYGjUgMTAnWBCpkDsokf/zLE0UGRbNkvM6IaA9qvanZo8L1h6QAbS81CScPNqa6OePMNFFHFkAO3LN4KM+9y1xcG6YDPRSknZphWj5GbR+wGBvKTEYRploV47oKeSA7hO8Jr50kSA62VBNolcgZGsBc8dtPomFlOIJ6XlSHrAKk4TZVWpEOPEhuHY4yBSQVBNGi1JIPci+O4sr/I7w1QduM7wFWgGtgfuFP62yqhnBL8KFF40phiLRz1xAXbCAzMhiwbHKflYZBtbQ/vD+y9c45eghy/UEFTf5kTvrwdx49jTrpp9IWc+dDWSZ6Wqn32DHIqLz9XEofCFdONPwypxupkS870HfCSWY+QH8RQ6o5T1weiZKOIRvl/ycO02Jf6vivJS2zEgSOBsYSqeXLRaymDqUNTDIsx3RoHLNGEMz0FNyw+uaeWOru4zWZpNtGOkeDmg907lfud9Uz7M7cf4I9GkRjhHXNqjDJgYG1OIhVUhPOphidHo38emo2vDOz/8DuYAfZn8Xo6i2kH0HuD9pvW+B+amxdzk7dGIaE44p+uTKCgP/O+HEgUBmBTFUuTDPq508hxU72Ii1EVUn9upGjnRlimQE6//xDf05Bxm/E6gPZdgwqcvTvo9FcFU5s+AHcdR1Q43JYFqGGJBq7BUsWAk8VX3ZtjtjrWtaZlIptxgGqUPKrp2MOXgmPj4PMgHNcQBsR2DrrFiQysu3UHqaWkElcrhGLdJo+VyPAAAAA=" class="reviwes-images" alt="user1" />
+        <h3 class="reviews-title">Abraham Baker</h3>
+        <p class="reviews-student">Student</p>
+        <p class="reviews-text">
+          I am very pleased that I decided to enroll in photography school. The
+          teachers turned out to be very talented and experienced professionals
+          who share their knowledge and are dedicated to their work. I was able
+          to expand my skills and discover my own style.
+        </p>
+      </li>
+      <li class="reviews-itome">
+        <img src="data:image/webp;base64,UklGRpQGAABXRUJQVlA4IIgGAABQIgCdASpwAHAAPok2lUelIyIhMbjuKKARCUAZ65J43jCnQUl19ly1zx/oA4NfmA6GH+Q3z30AOlor0M/rVPwazGmEunUmpeWB8B6IC9RzKj8LW9/96vlWKcNJ+lTnYv64m+nHtSNcUnKvpkuVDR0dtGJ4/8Z+xGMkaDaGuxVhAgjRdnugxpkBx+GlB/UPyXLXwhJfY+gk50gtJT8TW8eAu0kYeXRWFpAHfU2Y17pKTvlNy6mtJ0Ue7JkARijaqUv54SlBYeTN/Zw2o/LinjnAzdV438yKqLwdHox5jAL7H84UU9/jnwYkEVhNcj5j2viEn/Rm63nYyvoV7iqRZ//GQ7xBG7bgo3AnPT6UpAHsM7bjk/WCRUIvuNQAAP78qA4UL+osDMOweo/6Rmwd8UCkUd9fdVm4a0d4X7ZYFn9IqAsw2/oeqovtWXxNXO1ihw4LLmZs/vMd27fQQxWgiCwfkPJwziulzqC6X4ZSl9yjkSQrkjB4n3y7IIvEbeLmNfcFcMTx3Lz6fo8iWUcEFcsglk8Q36M/djbJZE1ch8zt2qDTsmB4mwRmwqo6QWQb6+KictAV0E2A3Eo+wLT5NMGTW7wptrAJnSBrQQY+N0U/8oDlicwqlYt8NCA2VL8hsYacT4Lx0IX/asjaHFKzh03+XpehUVLu0HGeyE0wVN5Lemq6hTbDJnih5kG4sC8Ea4/G9TOQDeqCig7ncQBip2N5SPmK98zuXGM1CvVJp3NTImL8EqcaiwAUvNHBl4AHbUUNbmGZMaGc1R4dlQ+sWaqo6779whTdj+7cFIL/fTQ8RWHsgf6nEtL/MOCKGbaHMoDkFUuMdbgbdyvW+yQ824DF2vZp9rwNkF4CiAYCFB/Monkf02aOqOM5/NsGZBoB0WdIg41zXm/o+z2YAZkB794cdsAljwa308Tamds9ryIvNI5AmytXQ0DT+vsV2fgOdwOEfaSI0ULSduqeXhDnLUICi9N4ri/faMs13D/YFGqRiWZwz9b5piOJ24pDQ6TFr6d7f+4ltsP/fcvsi/yAEza8gXwQIITNgZkp588HypZ4nt2sG+Uanm/myursDp2mVPeff0L85RZKM7nRPj8Q/ACyFrzwvW4W7PxqiYjWOSvo3EYrsfHTbYU1n08LTxm7ynvi+q8FvW8b4KSLo+h1Z533N2lkje97nF009mCd3U56EAzn49/Y9Y1YQQs7f4G7b4jPOtjNiy4kNID4we5kG4OdP/ykTohdcfjgwnIEZBjm5k4IcKBuFYkyZfzHi6BNjS0BDotvP0Jm0l/Vbw8+84Mb/rtDxCGTzETJcgvRTByqfihE9AspkBE/Xb2Uak0/VDKecpxgKA3kcssWQnNXT7SwZZI2kU+anPB4InXAJ0MJffPUArypXtfYhkCCWFQLgLr8MD7qi+T6zA9Av6OtUltze8oZTBpErvBCfDssWejAxwNkOqbrvW11G01QKt21D8vGA6ewUmF+aa3a0rxr+d6YLK92byD6p27sDu/aZBuD36KCO0vq9Rzave8aVdQ4IfkSpOGzY7wARSkpCx2EgFi1YQzsC4EGcfBG+x9iq/fIGy8VhBp7X9ajgVPI6/aulN5ByXkUNo9pV6bXohouvdnJ8bD7c8OIo93SAOPm5uhMWr1NAlfdSntpc2bHU0Z4kRO4TEURMqqJX4SIszc1W4IxhQS7CrtA3sqJu0qeLLg4n3+EzelJTfzU7dcD5j9sY1h+fHtcdy82fl8wsoem5anqORL4WY8kxYnaPsSYSDhCW06p6YEEHsrR6iVWDj2M/tbTgOyVn9sbl+z5ZuOLlxpllxxgOHMd8U5QwVpmFBuW8PGGYNB+kHO3j9doPoHZPPacx0LlbKFhDhUgiQpXa9tgv8t86DbDOAf927rYfzD/WVJTT5FEB0iLRgGOLGjk8btQkj+os/ESfs7Nk1UqDCuyb7Jyskmqf13jEYBzrfQGtK046rLJZg5Y+pEfjGZwLXCOC3azNuSl5YnWpF2DWKVA8VolRztGg66dEAictBZ3bNsOhNJnhoYc59KmMvfVawn7CUip5s6zyVpr4DYoLZmK3j5bTv7BttcMyn+/dteJRaiDvtC49EIbP3egmNgvfN2WubeMTq3cNcrRRms82hUeWQRqEMV6eDTad/byIVoWgJth5MicPxXKkmFrrsgc0O4AfEqfy+qmSRIx3mNKjFosZWc7d1a8ctmX7bNn/KQuk1JE7Z344AAA" class="reviwes-images" alt="user2" />
+        <h3 class="reviews-title">Amanda Lowery</h3>
+        <p class="reviews-student">Student</p>
+        <p class="reviews-text">
+          The courses at the photography school exceeded all my expectations. I
+          gained not only technical knowledge, but also inspiration and
+          motivation to reach new heights in my creativity. Hands-on classes and
+          workshops helped me understand different styles of photography.
+        </p>
+      </li>
+    </ul>
+  </div>
+</section>
+
+    <footer class="footer" id="footer">
+  <div class="container">
+    <div class="footer-wrap">
+      <div class="footer-frame-section">
+        
+        <div class="footer-contacts">
+          <img src="data:image/webp;base64,UklGRnwCAABXRUJQVlA4WAoAAAAQAAAAewAAEAAAQUxQSBACAAABkFXbdt1WG4IY5EAwBEEwgysGFYOIQcxAYZAyEIRAOBAEYX1IcvMY9z8iJoCzSd9YOOn6/P+et3n8mjav35F0NpiFE2b2GjMLp1znzQYzO2MWBrOVmb1iawAtTa4d8KsU3dtwuO8K1w7Qtlc83GODS7h1gGqSu1sDbvrp4Pvw0wG//ukfy6ukG/OmCD7cIamyjC9o0IGLM/cgwBkr0yhV5nXS6jRaBz9KA6ISUNMdSOcCsFt8wO+q1+ltAHqGnmNyyEM/igO95A5NCSj7AcRhmSp4kHSHpgdUSQe0cwbdJGutrpY+2aUCWdIBdUhSBJKUwfWEIqnA77knZEmK0OUQJYWU9nOhg9c9aPmnqnnYsi82yYAgGXgAdjOL0IcjTkOHOATgAlw0P6fEtKUTPU63IQ1bdaaTy0wz42wAkuYfIrs7Y125losI4PXxBl9eTjnkYQPksEuylPZVm0ja0hO4vKzBI0jlRQKClqcOaEOFpjs0STf4NSBIBqTD/ZAkhxhjtJd02CS1VzUokqyUdM46eE4NiIpATRVI6uA5+7ADebMrEID0qpvCjVdl4BqTQzmnzLJIOpgXKTN1SGosD73sYP0aNeYe5O77SrENz11jcaBnSSpAz9l9l4oPvUjuvmf3trq775LCfWjZ/ZC7D+4+uDdJxYFegv4eYjStt2iah7gFrbcYTe8NcQt66xa3IElWUDggRgAAALAEAJ0BKnwAEQA+kTyZSCWjIqEuCACwEglpAABsd8yJXsfr6pddmT9SRPsVKgAA/vhNCLG//40Np/9ZAcP/ScHv/zogAAA=" class="footer-logo" alt="logo">
+          <address class="footer-address">
+            <a href="tel:+380665438912" class="footer-phone-contacts">
+              UK: +38 066 543 8912
+            </a>
+            <a
+              href="https://maps.app.goo.gl/dxjbgBepBaQgaq7U7"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-country"
+            >
+              Ukraine, Kyiv
+            </a>
+          </address>
+        </div>
+      </div>
+
+      <div class="footer-nav-section">
+        <ul class="footer-soc-list">
+          <li class="footer-soc-item">
+            <a
+              href="https://www.instagram.com/goitclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-soc-name"
+            >
+              Instagram
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href="https://www.facebook.com/goITclub/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-soc-name"
+            >
+              Facebook
+            </a>
+          </li>
+          <li class="footer-soc-item">
+            <a
+              href="https://www.youtube.com/c/GoIT"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="footer-soc-name"
+            >
+              Youtube
+            </a>
+          </li>
+        </ul>
+
+        <ul class="footer-menu-list">
+          <li class="footer-menu-item">
+            <a href="#about" class="footer-soc-name">About Us</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#courses" class="footer-soc-name">Our Courses</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#mentors" class="footer-soc-name">Our Mentors</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#reviews" class="footer-soc-name">Reviews</a>
+          </li>
+          <li class="footer-menu-item">
+            <a href="#footer" class="footer-soc-name">Contacts </a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="footer-form-container">
+        <form class="footer-form">
+          <label for="footer-email" class="footer-label">
+            <input
+              id="footer-email"
+              name="footer-email"
+              type="email"
+              pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              placeholder="Enter your email"
+              class="footer-input"
+              required
+            />
+          </label>
+          <button type="submit" class="footer-form-button">Go</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer-last-part">
+      <p class="footer-text">
+        Privacy policy<br />
+        Public Offering Agreement
+      </p>
+      <p class="footer-text">
+        2023 Focus Frame<br />
+        © All rights reserved
+      </p>
+    </div>
+  </div>
+</footer>
+
+    
+  </body>
+</html>
