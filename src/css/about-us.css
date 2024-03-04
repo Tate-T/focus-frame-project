@@ -7,6 +7,7 @@
 
 .about {
   background-color: var(--bacground-color);
+  font-family: "DM Sans", sans-serif;
 }
 
 .about-logo {
@@ -14,8 +15,9 @@
   font-weight: 500;
   font-size: 48px;
   line-height: 112%;
-  letter-spacing: -0.04em;
   color: var(--wite-color);
+  margin-bottom: 50px;
+  
 }
 
 .about-subtext {
@@ -29,14 +31,29 @@
   width: 1080px;
   height: 260px;
   font-size: 14px;
+  gap: 40px;
+
 }
 
 .image-kamera {
   height: 260px;
+  width: 488px;
+  display: flex;
 }
 
 .section-text {
   color: var(--wite-color);
-  height: 260px;
-  width: 266px;
+  width: 268px;
+  height: 215px;
+}
+
+.about-container {
+  display: flex;
+  gap: 20px;
+}
+
+.container-text {
+  color: var(--wite-color);
+    width: 264px;
+    height: 215px;
 }
