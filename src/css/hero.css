@@ -15,7 +15,7 @@
    height: 600px;
    background-image: url(../img/hero-person.webp), linear-gradient(#1D1D1D,#1D1D1D);
    background-repeat: no-repeat, no-repeat;
-   background-position: right bottom, center;
+   background-position: 633px 80px, center;
    font-family: "DM Sans", sans-serif;
   }
 
