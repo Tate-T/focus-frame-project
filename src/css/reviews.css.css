@@ -12,9 +12,10 @@
 }
 
 .reviews-title {
-  line-height: 1.5;
+
   margin-bottom: 4px;
   color: var(--wite-color);
+
 }
 
 .reviews-itome {
@@ -46,10 +47,24 @@
   color: rgba(255, 255, 255, 0.5);
 }
 
-.reviews-image {
-  background-color: var(--bacground-color);
-}
 
 .reviews-section {
   background-color: var(--bacground-color);
+}
+
+.reviews-image {
+  border-radius: 50%;
+
+}
+
+
+.section-images {
+  display: flex;
+  align-items: center;
+
+}
+
+.reviews-images {
+    width: 56px;
+      height: 56px;
 }
