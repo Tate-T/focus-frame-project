@@ -30,8 +30,12 @@ height: 60px;
   margin-left: 50px;
   margin-top: 22px;
   margin-bottom: 22px;
+  fill: var(--wite-color);
 }
 
+.header-logo:hover {
+  fill: var(--camera-bacground-color);
+}
 
 .header-list{
   display: flex;
