@@ -18,7 +18,6 @@
   line-height: 129%;
   letter-spacing: -0.02em;
   color: var(--camera-bacground-color);
-  margin-top: 32px;
 }
 
 .courses {
@@ -112,7 +111,7 @@
 
 .courses-box {
   display: flex;
-  align-items: center;
+  align-items: start;
   margin-left: 32px;
   margin-right: 32px;
 }

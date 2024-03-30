@@ -14,7 +14,7 @@
 .reviews-title {
   font-size: 20px;
   color: var(--wite-color);
-
+  min-width: 152px;
 }
 
 .reviews-itome {
@@ -65,7 +65,7 @@
 .section-images {
   align-items: first baseline;
   display: flex;
-  gap: 156px;
+  justify-content: space-between;
   align-items: flex-start;
  }
 
@@ -85,15 +85,14 @@
   flex-direction: column;
   gap: 4px;
   padding-top: 3px;
+  margin-right: auto;
 }
 
 .reviews-gap {
   display: flex;
   gap: 10px;
   justify-content: center;
-
 }
-
 
 .reviewes-img {
   width: 56px;
@@ -107,4 +106,31 @@
   flex-direction: column;
   gap: 4px;
   padding-top: 3px;
+}
+
+.review-list {
+  display: flex;
+  margin-left: 156px;
+}
+
+.review-star {
+  width: 20px;
+height: 20px;
+fill: var(--camera-bacground-color);
+}
+
+.review-star-special {
+  fill: var(--gradient-color);
+  width: 20px;
+  height: 20px;
+}
+
+.review-star:hover {
+  box-shadow: 0px 0px 5px 5px var(--camera-bacground-color);
+  border-radius: 50%;
+}
+
+.review-star-special:hover {
+  box-shadow: 0px 0px 5px 5px var(--camera-bacground-color);
+  border-radius: 50%;
 }
