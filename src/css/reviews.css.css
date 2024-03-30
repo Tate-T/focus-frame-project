@@ -111,6 +111,7 @@
 .review-list {
   display: flex;
   margin-left: 156px;
+  gap: 4px;
 }
 
 .review-star {
